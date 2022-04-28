@@ -6,6 +6,7 @@
  
 # Saha-Robotics-BootCamp
 
+Welcome to my document, which serves as an implementation for such things I learned during in the Ros Boot Camp days 🤖
 
 src-> Source Area of Project
 
@@ -13,9 +14,10 @@ build-> Build Area created by Cmake
 
 devel-> Development Area
 
-mkdir -p ~/reptobot_ws/src
+`mkdir -p ~/reptobot_ws/src`
 
-cd ~/repbotot_ws/src  ---- > catkin_init_workspace
+`cd ~/repbotot_ws/src  ---- > catkin_init_workspace`
+
 
 Created cmake file in accordance with Ros
 
@@ -26,7 +28,7 @@ It is a file that makes both the configuration and parametric redirection
 of the engine running in the back when we press the compile button in 
 ide programs such as Visual Studio, Eclipse.
 
-catkin_create_pkg ilk_paket std_msgs roscpp rospy
+`catkin_create_pkg ilk_paket std_msgs roscpp rospy`
 
 catkin_make, allows the package to be introduced to ros
 You can see output of this command like below ;
@@ -57,28 +59,28 @@ Output from terminal when we do catkin_make
 ![image](https://user-images.githubusercontent.com/63358327/165771816-ccac885a-5e2e-428d-92a4-9b01d7781f43.png)
 
 
--roscore
+`roscore`
 
--rosrun dedikodu Cok_Konusan
+`rosrun dedikodu Cok_Konusan`
 
--rosrun dedikodu Cok_Dinleyen
+`rosrun dedikodu Cok_Dinleyen`
 
 ![image](https://user-images.githubusercontent.com/63358327/165776830-ef0b025e-08f4-481e-8bbf-e34066584b64.png)
 
 
 
-rosrun rqt_graph rqt_grapg
+`rosrun rqt_graph rqt_grapg`
 
 ![image](https://user-images.githubusercontent.com/63358327/165776548-c7286001-652c-454a-a63f-1b3355bbd712.png)
 
 ![image](https://user-images.githubusercontent.com/63358327/165778407-9ef8e8d3-76a1-4aec-b849-9fc43fe9bcff.png)
 
 
-rosrun dedikodu Cok_Konusan __name:= konusan2
+`rosrun dedikodu Cok_Konusan __name:= konusan2`
 
-rosrun dedikodu Cok_Dinleyen __name:= dinleyen2
+`rosrun dedikodu Cok_Dinleyen __name:= dinleyen2`
 
-rosrun rqt_graph rqt_grapg
+`rosrun rqt_graph rqt_grapg`
 
 ![image](https://user-images.githubusercontent.com/63358327/165779191-b80a4878-34d7-4309-a109-963459f7c994.png)
 
@@ -86,7 +88,7 @@ rosrun rqt_graph rqt_grapg
 ![image](https://user-images.githubusercontent.com/63358327/165781978-e2840712-97cc-4265-a44c-24c789caba3b.png)
 
 
-roslaunch dedikodu dedikodu.launch
+`roslaunch dedikodu dedikodu.launch`
 
 ![image](https://user-images.githubusercontent.com/63358327/165782217-3517218b-fbfb-4c8f-a94e-ef545c490c67.png)
 
