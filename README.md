@@ -7,7 +7,9 @@ build-> Build Area created by Cmake
 devel-> Development Area
 
 mkdir -p ~/reptobot_ws/src
+
 cd ~/repbotot_ws/src  ---- > catkin_init_workspace
+
 Created cmake file in accordance with Ros
 
 Why we use Cmake file?
@@ -50,7 +52,9 @@ Catkin_make is
 
 
 -roscore
+
 -rosrun dedikodu Cok_Konusan
+
 -rosrun dedikodu Cok_Dinleyen
 
 ![image](https://user-images.githubusercontent.com/63358327/165776830-ef0b025e-08f4-481e-8bbf-e34066584b64.png)
@@ -64,8 +68,8 @@ rosrun rqt_graph rqt_grapg
 ![image](https://user-images.githubusercontent.com/63358327/165778407-9ef8e8d3-76a1-4aec-b849-9fc43fe9bcff.png)
 
 
-
 rosrun dedikodu Cok_Konusan __name:= konusan2
+
 rosrun dedikodu Cok_Dinleyen __name:= dinleyen2
 
 rosrun rqt_graph rqt_grapg
