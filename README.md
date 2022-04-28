@@ -1,7 +1,9 @@
 # Saha-Robotics-BootCamp
 
 src-> Source Area of Project
+
 build-> Build Area created by Cmake
+
 devel-> Development Area
 
 mkdir -p ~/reptobot_ws/src
