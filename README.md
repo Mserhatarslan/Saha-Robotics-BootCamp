@@ -34,6 +34,7 @@ catkin_make, allows the package to be introduced to ros
 You can see output of this command like below ;
 +++processing catkin_package : 'dedikodu'
 
+dedikodu that means gossip in English 😅
 
 We can change effect of line 139 in CmakeLists.txt ( consist of ilk_paket's CmakeLists.txt)
 So cpp node files can visible, DECLARE A C++ EXCUTABLE
