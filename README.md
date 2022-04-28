@@ -43,10 +43,9 @@ This node attached this catkin_libraries
 ![image](https://user-images.githubusercontent.com/63358327/165772709-d87d2efb-3cae-4287-93a8-d79aad554319.png)
 
 
-Adding our C++ file as node and linking the node to catkin library,
-above change
+Adding our C++ file as node and linking the node to catkin library,above change
 
-Catkin_make is
+Output from terminal when we do catkin_make
 
 ![image](https://user-images.githubusercontent.com/63358327/165771816-ccac885a-5e2e-428d-92a4-9b01d7781f43.png)
 
