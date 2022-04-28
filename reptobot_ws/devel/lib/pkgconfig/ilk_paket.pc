@@ -1,0 +1,8 @@
+prefix=/home/serhat/reptobot_ws/devel
+
+Name: ilk_paket
+Description: Description of ilk_paket
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

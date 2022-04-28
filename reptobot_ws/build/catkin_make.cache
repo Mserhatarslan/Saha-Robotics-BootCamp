@@ -1,0 +1,2 @@
+dedikodu:ilk_paket
+-DCATKIN_DEVEL_PREFIX=/home/serhat/reptobot_ws/devel -DCMAKE_INSTALL_PREFIX=/home/serhat/reptobot_ws/install -G Unix Makefiles

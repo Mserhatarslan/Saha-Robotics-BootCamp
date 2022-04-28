@@ -1,0 +1,8 @@
+prefix=/home/serhat/reptobot_ws/install
+
+Name: dedikodu
+Description: Description of dedikodu
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
