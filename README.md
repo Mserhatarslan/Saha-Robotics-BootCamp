@@ -40,7 +40,9 @@ We can change effect of line 139 in CmakeLists.txt ( consist of ilk_paket's Cmak
 So cpp node files can visible, DECLARE A C++ EXCUTABLE
 
 Has to write node name's in this blank and name's of cpp files
+
 For example ; 
+
 add_executable(hello src/hello.cpp) 
 Node name is hello and after that location of this node
 
