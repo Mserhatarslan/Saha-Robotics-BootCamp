@@ -4,17 +4,14 @@
 
 int main( int argc, char **argv)
 {
-
     ros::init(argc,argv,"Cok_Konusan");
     ros::NodeHandle nh;
     ros::Publisher pub_konusan;
     pub_konusan = nh.advertise<std_msgs::String>("konusan_teyze", 1000);
     ros::Rate loop_rate(10);
-
     int sayi=0;
     while( ros::ok())
     {
-
         std_msgs::String msg;
         std::stringstream ss;
         ss << "gec geldiginiz saniye  " << sayi;
@@ -25,11 +22,6 @@ int main( int argc, char **argv)
         ros::spinOnce();
         loop_rate.sleep();
         sayi++;
-
-
-
-
     }
-    return 0;
-    
+    return 0;    
 }
