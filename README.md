@@ -18,6 +18,13 @@ devel-> Development Area
 
 `cd ~/repbotot_ws/src  ---- > catkin_init_workspace`
 
+ Nodelets are especially useful for camera systems and 3D sensors, where the volume of data transferred is very high.
+ 
+ The topics in ROS can be transmitted using TCP/IP and UDP. The TCP/IP-based transport is known as TCPROS and uses the persistent TCP/IP connection. This is the default transport used in ROS. The UDP-based transport is known as UDPROS and is a low-latency, lossy transport, so it is best suited
+to tasks such as teleoperation.
+
+When you need to communicate with nodes and receive a reply in an RPC fashion, you cannot do it with topics; you need to do it with services.
+RPC---> Remote Procedure Call 
 
 Created cmake file in accordance with Ros
 
