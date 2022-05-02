@@ -1,0 +1,16 @@
+<package>
+  <description brief="smach_usecase_ws">
+
+     smach_usecase_ws
+
+  </description>
+  <author>serhat</author>
+  <license>BSD</license>
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/smach_usecase_ws</url>
+  <depend package="rospy"/>
+  <depend package="std_srvs"/>
+  <depend package="smach"/>
+  <depend package="turtlesim"/>
+
+</package>
