@@ -1,0 +1,2 @@
+smach_example
+-DCATKIN_DEVEL_PREFIX=/home/serhat/first_smach_project/devel -DCMAKE_INSTALL_PREFIX=/home/serhat/first_smach_project/install -G Unix Makefiles
